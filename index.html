@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            height: 40px;
+            width: 100%;
+            background-color: #0f2530;
+        }
+        .header h1 {
+            font-size: 25px;
+            padding: 10px 25px;
+            font-weight: 800;
+            color: white;
+        }
+        .navbar {
+            height: 40px;
+            width: 100%;
+            background-color: #0f2530;
+            justify-content: center;
+            display: flex;
+           
+        }
+        .nav-mid {
+            height: 40px;
+            width: 40%;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .nav-mid ul {
+            display: flex;
+            padding-top: 10px;
+        }
+        .nav-mid ul li {
+            padding: 0px 7px;
+            list-style: none;
+            margin: 0px 10px;
+        }
+        .nav-mid ul li a {
+            text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+        }
+        .nav-mid  ul li:hover {
+            transform: scale(1.2);
+        }
+
+        .main {
+            justify-content: center;
+            display: flex;
+            background-color: #171717;
+            height: 1800px;
+        }
+        .content {
+            background-color: #171717;
+            width: 55%;
+            height: 330px;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+          
+        }
+        
+        .box1 { 
+            height: 170px;
+            width: 330px;  
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+         
+        }
+        .box1 h1 {
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            padding: 15px 20px 10px 25px;
+
+        }
+        .box1-bot {
+            height: 120px;
+            width: 330px;
+            background-color: #202124;
+            border: 1px solid gray;
+            flex-wrap: wrap;
+        }
+        .mt-top {
+            display: flex;
+        }
+        .top-left {
+            width: 67%;
+        }
+        .top-left h2 {
+            
+            font-size: 15px;
+           padding: 10px 10px 5px 26px;
+           color: whitesmoke;
+        }
+        .top-right {
+            width: 33%;
+        }
+        .top-right h2 {
+            font-size: 15px;
+            padding: 10px 10px 5px 10px;
+            color: whitesmoke;
+        }
+        .mt-mid {
+            display: flex;
+            margin: 5px 0px;
+        }
+        .mid-left {
+            display: flex;
+            width: 75%;
+        }
+        .mid-left img {
+            height: 20px;
+            width: 20px;
+            padding: 1px 10px 2px 20px;
+        }
+        .mid-left h2 {
+            font-size: 15px;
+            padding: 3px 10px 2px 0px;
+            color: whitesmoke;
+        }
+        .mid-right {
+           
+            width: 25%;
+
+        }
+        .mid-right h2 {
+            font-size: 15px;
+            padding: 3px 10px 2px 0px;
+            color: whitesmoke;
+
+        }
+        .mt-last {
+            margin: 0px 0px 5px 0px;
+            display: flex;
+        }
+        .mt-last h2 {
+            font-size: 15px;
+            padding: 4px 10px 2px 30px;
+            color: whitesmoke;
+        }
+        .mt-last a {
+            font-size: 15px;
+            padding: 4px 10px 2px 60px;
+            color: rgb(56, 34, 252);
+
+        }
+        @media screen and (max-width: 397px) {
+  .header {
+    height: 70px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MANSOORA SUPER LEAGUE</h1>
+    </div>
+    <div class="navbar">
+        <div class="nav-mid">
+        <ul>
+            <li><a href="#">MATCHES</a></li>
+            <li><a href="#">STANDING</a></li>
+            <li><a href="#">STATUS</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="main">
+    <div class="content">
+         
+        <!--Match 1 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            <!--Match 1 End-->
+
+
+
+
+
+
+
+
+
+
+            <!--Match 2 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            <!--Match 2 End-->
+
+            <!--Match 3 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            <!--Match 3 End-->
+
+            <!--Match 4 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            <!--Match 4 End-->
+
+            <!--Match 5 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            <!--Match 5 End-->
+          
+            <!--Match 6 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 6 End-->
+
+             <!--Match 7 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 7 End-->
+
+            <!--Match 8 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 8 End-->
+            
+             <!--Match 9 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 9 End-->
+
+            <!--Match 10 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 10 End-->
+
+             <!--Match 11 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 11 End-->
+
+            <!--Match 12 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 12 End-->
+
+             <!--Match 13 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 13 End-->
+
+            <!--Match 14 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 14 End-->
+
+             <!--Match 15 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 15 End-->
+
+            <!--Match 16 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 16 End-->
+
+             <!--Match 17 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 17 End-->
+
+            <!--Match 18 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+            
+            <!--Match 18 End-->
+            
+             <!--Match 19 Start-->
+             <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 19 End-->
+
+            <!--Match 20 Start-->
+            <div class="box1">
+                <h1>13 Feb 2023</h1>
+                <div class="box1-bot">
+                                              <div class="mt-top">
+                                                <div class="top-left"> <h2>T20 1 of 20</h2></div>
+                                                <div class="top-right"><h2>13 Feb 2023</h2> </div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-mid">
+                                                <div class="mid-left">
+                                                    <img src="lahore-qalanders-logo-FB30146312-seeklogo.com.png">
+                                                    <h2>Lahore Qalander</h2>
+                                                </div>
+                                                <div class="mid-right"> <h2>180/7 (20)</h2></div>
+                                              </div>
+                                              <div class="mt-last">
+                                                <h2>Lahore won by 1 Runs</h2>
+                                                <a href="#">See More</a>
+                                              </div>
+
+                 </div>
+            </div>
+
+            <!--Match 20 End-->
+
+
+
+
+      
+
+    </div>
+
+    </div>
+    
+</body>
+</html>
